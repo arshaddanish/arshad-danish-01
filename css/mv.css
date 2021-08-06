@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+  .intro {
+    text-align: center;
+  }
+
+  .intro-box {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .adventures .story img {
+    width: 200px;
+  }
+
+  .tip-box p,
+  .tip-box h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    font-size: 14px;
+  }
+}

@@ -13,6 +13,20 @@ body {
   padding-bottom: 100px;
 }
 
+.home-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.home-box .img-box {
+  justify-self: center;
+}
+
+.home-box .title-box {
+  justify-self: center;
+}
+
 .home img {
   width: 500px;
 }
@@ -118,7 +132,7 @@ body {
 
 .join {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .join h2 {
@@ -129,6 +143,10 @@ body {
   max-width: 300px;
   float: left;
   margin-right: 2rem;
+}
+
+.join .join-img {
+  text-align: center;
 }
 
 /* .................... */
