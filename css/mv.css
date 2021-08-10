@@ -1,4 +1,23 @@
+@media (max-width: 1200px) {
+  .home img {
+    width: 400px;
+  }
+}
+
 @media (max-width: 992px) {
+  .home-box {
+    grid-template-columns: 1fr;
+  }
+
+  .home-box .title-box {
+    grid-row: 1;
+    margin-bottom: 2rem;
+  }
+
+  .home-box .img-box {
+    grid-row: 2;
+  }
+
   .intro {
     text-align: center;
   }
@@ -20,7 +39,65 @@
 }
 
 @media (max-width: 576px) {
+  .home {
+    padding: 50px 2rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  .home img {
+    width: 100%;
+  }
+  .home h1 {
+    font-size: 2rem;
+  }
+  .home h1,
+  .home p {
+    text-align: center;
+  }
+
+  .intro-box h2,
+  .adventures h2,
+  .tips h2 {
+    font-size: 1.75rem;
+  }
+  .intro img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .adventures {
+    text-align: center;
+  }
+  .adventures h2,
+  .tips h2 {
+    margin-bottom: 3rem;
+  }
+
+  .tip-box {
+    padding: 1rem !important;
+  }
+
+  .join {
+    text-align: center;
+  }
+  .join input {
+    max-width: 100%;
+    float: none;
+    margin-bottom: 1.5rem !important;
+  }
+
   .footer {
     font-size: 14px;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+  .footer .social-media {
+    grid-row: 1;
+  }
+  .footer p {
+    grid-row: 2;
+    text-align: center;
   }
 }
