@@ -28,6 +28,17 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-nav {
+    position: absolute;
+    background: #fff;
+    top: 54px;
+    left: 0;
+    width: 100%;
+  }
+  .nav-item.cont a {
+    color: gray !important;
+  }
+
   .adventures .story img {
     width: 200px;
   }

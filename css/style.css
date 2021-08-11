@@ -6,6 +6,27 @@ body {
   background-color: #542e71;
 }
 
+.navbar .container {
+  display: grid;
+  justify-content: end;
+}
+
+.navbar button {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar i {
+  color: #eeeeee;
+  font-size: 20px;
+}
+
 /* .................... */
 
 .home {
